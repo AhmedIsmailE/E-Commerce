@@ -1,1 +1,88 @@
-doc
+# 🛍️ E-Commerce Admin Dashboard
+
+This is a web-based E-Commerce Admin Dashboard built using **PHP**, **MySQL**, **HTML/CSS/JS**, and modern frontend techniques. The application allows administrators to manage users, products, and view orders efficiently.
+
+---
+
+## 📁 Project Structure
+
+/final_project/
+│
+├── Admin/
+│ ├── get_all_users.php
+│ ├── edit_user.php
+│ ├── add_new_product.php
+│ └── ...other admin pages
+│
+├── APIs/
+│ ├── UsersAPI.php
+│ ├── ProductsAPI.php
+│ └── OrdersAPI.php
+│
+├── js/
+│ ├── EditAll.js
+│ └── ...JS files for validation and interaction
+│
+├── css/
+│ └── styles.css
+│
+├── Home.php
+├── dbConnection.php
+└── README.md
+
+---
+
+## ⚙️ Technologies Used
+
+- **PHP** (vanilla backend and APIs)
+- **MySQL** (database)
+- **HTML5 / CSS3**
+- **JavaScript (Vanilla)** – client-side validation, dynamic UI
+- **RESTful API** pattern
+- **Session Management** – login, role-based access
+
+---
+
+## 🚀 Features
+
+- ✅ Admin/User login & session validation
+- ✅ View all users and orders
+- ✅ Add, edit, delete products
+- ✅ Role-based access control (admin vs customer)
+- ✅ Client-side and server-side validation
+- ✅ JSON API consumption using `fetch()`
+
+---
+
+## 🔐 Role-Based Access
+
+| Role     | Access                                       |
+|----------|----------------------------------------------|
+| Admin    | Full access to manage users/products/orders  |
+| Customer | Redirected to home page                      |
+
+---
+
+## 🧪 How to Run Locally
+
+1. **Clone the Repository:**
+
+```bash
+git clone https://github.com/AhmedIsmailE/E-Commerce.git
+Set Up Apache & MySQL
+
+Use XAMPP or Laragon
+
+Place the repo inside your htdocs or www directory.
+
+Import Database
+
+Open phpMyAdmin
+
+Import the .sql dump (usually located in /db.sql or shared separately)
+
+Update API URLs (if needed):
+
+In your API calls, ensure they point to:
+http://localhost/NTI/final_project/APIs/...
+Or update based on your folder name/path.
