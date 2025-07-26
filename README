@@ -86,3 +86,6 @@ Update API URLs (if needed):
 In your API calls, ensure they point to:
 http://localhost/NTI/final_project/APIs/...
 Or update based on your folder name/path.
+
+And Makesure your database in Mysql is same as projectdb
+And for using different account in mySQL you have to update it in dbconnection.php file
