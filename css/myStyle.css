@@ -1,0 +1,48 @@
+body {
+  background: #fff;
+  background: linear-gradient(to left, rgba(255,0,0,0.5), rgba(255,0,0,1));
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 24px rgba(220, 53, 69, 0.08);
+  background: #fff;
+}
+
+.card-title {
+  color: #dc3545;
+}
+
+.form-check-input:checked {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  border-color: #dc3545;
+}
+
+.form-check-input:hover {
+  border-color: #dc3545;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn-login:hover {
+  background-color: #b52a37;
+}
+
+.form-control:focus {
+  border-color: #dc3545;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.15);
+}

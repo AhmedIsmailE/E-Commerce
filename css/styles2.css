@@ -1,0 +1,19 @@
+
+.con1{
+    background-image: linear-gradient(to left, rgba(255,0,0,0.5), rgba(255,0,0,1));
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    .text-con{
+        width: 50%;
+    }
+    img{
+        width: 50%;
+    }
+}
+.icn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
